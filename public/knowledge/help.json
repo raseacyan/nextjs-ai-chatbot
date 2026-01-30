@@ -1,0 +1,41 @@
+{
+  "categories": [
+    {
+      "name": "Getting Started",
+      "description": "Basic information about using the chat application",
+      "topics": [
+        {
+          "title": "How to start a conversation",
+          "content": "Simply type your message in the input field and press Enter or click the send button.",
+          "tags": ["basics", "usage"]
+        },
+        {
+          "title": "Available features",
+          "content": "This chat supports text conversations, file uploads, and various AI tools.",
+          "tags": ["features", "tools"]
+        }
+      ]
+    },
+    {
+      "name": "AI Capabilities",
+      "description": "What the AI assistant can help with",
+      "topics": [
+        {
+          "title": "Code generation",
+          "content": "The AI can generate, explain, and debug code in multiple programming languages.",
+          "tags": ["coding", "development"]
+        },
+        {
+          "title": "Document creation",
+          "content": "Create and edit documents, essays, and other written content.",
+          "tags": ["writing", "documents"]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2024-01-30",
+    "author": "Your App Team"
+  }
+}

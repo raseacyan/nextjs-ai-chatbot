@@ -1,0 +1,366 @@
+{
+  "subject_id": "geography_history",
+  "book": {
+    "title_en": "Grade 5 Geography and History",
+    "title_my": "အဆင့် ၅ မြေဗေဒနှင့် သမိုင်းစာအုပ်",
+    "grade": 5,
+    "languages": ["en", "my"]
+  },
+
+  "intro": [
+    {
+      "page": 1,
+      "title_en": "Book Cover",
+      "title_my": "စာအုပ်မျက်နှာဖုံး",
+      "description_en": "This is the cover of the book.",
+      "description_my": "ဤသည်မှာ စာအုပ်၏ မျက်နှာဖုံးဖြစ်သည်။"
+    },
+    {
+      "page": 2,
+      "title_en": "About This Book",
+      "title_my": "စာအုပ်အကြောင်း",
+      "description_en": "This book is for Grade 5 students covering geography and history topics.",
+      "description_my": "ဤစာအုပ်သည် အဆင့် ၅ ကျောင်းသားများအတွက် မြေဗေဒနှင့် သမိုင်းဘာသာရပ်များကို သင်ကြားပေးရန် ဖြစ်သည်။"
+    }
+  ],
+
+  "table_of_contents": [
+    {
+      "part_id": 1,
+      "part_title_en": "Our Myanmar Country",
+      "part_title_my": "ကျွန်ုပ်တို့၏ မြန်မာနိုင်ငံ",
+      "sections": [
+        {
+          "lesson_id": 1,
+          "title_en": "Our Myanmar Country",
+          "title_my": "ကျွန်ုပ်တို့၏ မြန်မာနိုင်ငံ",
+          "page": 2,
+          "about": {
+            "description_en": "Myanmar is located in Southeast Asia and is a member of ASEAN. It shares borders with China to the north and northeast, Laos and Thailand to the east, and Bangladesh and India to the west.The most important river is the Ayeyarwady River, while other prominent rivers include the Chindwin, Thanlwin, and Sittaung.",
+            "description_my": "မြန်မာနိုင်ငံသည် အာရှတိုက်၏ အရှေ့တောင်ဘက်တွင် တည်ရှိပြီး အာဆီယံအဖွဲ့ဝင်နိုင်ငံ ဖြစ်သည်။ မြောက်ဘက်နှင့် အရှေ့မြောက်ဘက်တွင် တရုတ်နိုင်ငံ၊ အရှေ့ဘက်တွင် လာအိုနှင့် ထိုင်းနိုင်ငံ၊ အနောက်ဘက်တွင် ဘင်္ဂလားဒေ့ရှ်နှင့် အိန္ဒိယနိုင်ငံတို့နှင့် ထိစပ်နေပါသည်။နိုင်ငံ၏ အရေးအပါဆုံးမြစ်မှာ ဧရာဝတီမြစ်ဖြစ်ပြီး အခြားထင်ရှားသောမြစ်များမှာ ချင်းတွင်း၊ သံလွင်နှင့် စစ်တောင်းမြစ်တို့ ဖြစ်ကြသည်။"
+          },
+          "youtube_playlist_id": "PLnYHM09EZqGZncy6oCdiernmV6qKSWYGQ",
+          "url": "https://www.youtube.com/watch?v=dfpqITwNXQA&list=PLnYHM09EZqGZncy6oCdiernmV6qKSWYGQ"
+        },
+        {
+          "lesson_id": 2,
+          "title_en": "Myanmar Ethnic Groups",
+          "title_my": "မြန်မာ့ လူမျိုးစုများ",
+          "page": 4,
+          "about": {
+            "description_en": "Various indigenous ethnic groups live together in Myanmar.",
+            "description_my": "မြန်မာနိုင်ငံတွင် တိုင်းရင်းသားလူမျိုးပေါင်းစုံ စုစည်းနေထိုင်ကြသည်။"
+          },
+          "youtube_playlist_id": "PLnYHM09EZqGZncy6oCdiernmV6qKSWYGQ",
+          "url": "https://www.youtube.com/watch?v=dfpqITwNXQA&list=PLnYHM09EZqGZncy6oCdiernmV6qKSWYGQ"
+        }
+      ]
+    },
+
+    {
+      "part_id": 2,
+      "part_title_en": "Major Regions of Myanmar",
+      "part_title_my": "မြန်မာနိုင်ငံ၏ အဓိက ဒေသများ",
+      "sections": [
+        {
+          "lesson_id": 3,
+          "title_en": "Central Valley Plain",
+          "title_my": "အလယ်ပိုင်းမြေပြန့်ဒေသ",
+          "about": {
+            "description_en": "This region includes the Sagaing, Mandalay, Magway, and Bago Regions. It is characterized by vast central plains located in the heart of the country. Agriculture is the primary industry, focusing on rice and various oilseed crops. The area is home to many ancient royal capitals and significant cultural heritage sites. Sedimentary rocks are most commonly found throughout this central valley area.",
+            "description_my": "ဤဒေသတွင် စစ်ကိုင်း၊ မန္တလေး၊ မကွေးနှင့် ပဲခူးတိုင်းဒေသကြီးများ ပါဝင်သည် ။ နိုင်ငံ၏ အလယ်ဗဟိုတွင် တည်ရှိပြီး ကျယ်ပြန့်သော မြေပြန့်လွင်ပြင်များရှိသည် ။ စိုက်ပျိုးရေး လုပ်ငန်းများကို အဓိကလုပ်ကိုင်ပြီး ဆန်စပါးနှင့် ဆီထွက်သီးနှံများ ထွက်ရှိသည် ။ မြန်မာ့သမိုင်းဝင် နန်းမြို့ဟောင်းများနှင့် ယဉ်ကျေးမှု အမွေအနှစ်များ တည်ရှိရာဒေသဖြစ်သည် ။ အနည်ကျကျောက်များကို အလယ်ပိုင်းချိုင့်ဝှမ်းဒေသတွင် အများဆုံးတွေ့ရှိရသည် ။"
+          },
+          "youtube_playlist_id": "PLnYHM09EZqGZncy6oCdiernmV6qKSWYGQ",
+          "url": "https://www.youtube.com/watch?v=dfpqITwNXQA&list=PLnYHM09EZqGZncy6oCdiernmV6qKSWYGQ",
+          "subsections": [
+            {
+              "title_en": "Sagaing Region",
+              "title_my": "စစ်ကိုင်းတိုင်းဒေသကြီး",
+              "page": 12
+            },
+            {
+              "title_en": "Mandalay Region",
+              "title_my": "မန္တလေးတိုင်းဒေသကြီး",
+              "page": 14
+            },
+            {
+              "title_en": "Magway Region",
+              "title_my": "မကွေးတိုင်းဒေသကြီး",
+              "page": 16
+            },
+            {
+              "title_en": "Bago Region",
+              "title_my": "ပဲခူးတိုင်းဒေသကြီး",
+              "page": 18
+            }
+          ]
+        },
+        {
+          "lesson_id": 4,
+          "title_en": "Coastal Region",
+          "title_my": "ကမ်းရိုးတန်းဒေသ",
+          "about": {
+            "description_en": "This region covers Rakhine, Ayeyarwady, Yangon, Mon, and Tanintharyi. It features a long coastline along the Bay of Bengal and the Andaman Sea. Fishing and seafood production are the main economic drivers for these coastal areas. Mangrove forests are typically found growing along the coastal lines. Sedimentary rocks are a notable geological feature of the Rakhine coastal strip.",
+            "description_my": "ရခိုင်၊ ဧရာဝတီ၊ ရန်ကုန်၊ မွန်နှင့် တနင်္သာရီဒေသများ ပါဝင်သည် ။ ဘင်္ဂလားပင်လယ်အော်နှင့် ကပ္ပလီပင်လယ်တို့နှင့် ထိစပ်နေသော ကမ်းရိုးတန်းရှည်ကြီး ရှိသည် ။ ငါးဖမ်းလုပ်ငန်းနှင့် ပင်လယ်စာထုတ်လုပ်မှုသည် ဤဒေသ၏ အဓိကစီးပွားရေးဖြစ်သည် ။ ဒီရေတောများကို ကမ်းရိုးတန်းတစ်လျှောက်တွင် တွေ့ရှိနိုင်သည် ။ ရခိုင်ကမ်းမြောင်ဒေသတွင် အနည်ကျကျောက်များကို တွေ့ရှိရသည် ။"
+          },
+          "youtube_playlist_id": "PLnYHM09EZqGZncy6oCdiernmV6qKSWYGQ",
+          "url": "https://www.youtube.com/watch?v=dfpqITwNXQA&list=PLnYHM09EZqGZncy6oCdiernmV6qKSWYGQ",
+          "subsections": [
+            {
+              "title_en": "Rakhine State",
+              "title_my": "ရခိုင်ပြည်နယ်",
+              "page": 20
+            },
+            {
+              "title_en": "Ayeyarwady Region",
+              "title_my": "ဧရာဝတီတိုင်းဒေသကြီး",
+              "page": 22
+            },
+            {
+              "title_en": "Yangon Region",
+              "title_my": "ရန်ကုန်တိုင်းဒေသကြီး",
+              "page": 24
+            },
+            {
+              "title_en": "Mon State",
+              "title_my": "မွန်ပြည်နယ်",
+              "page": 26
+            },
+            {
+              "title_en": "Tanintharyi Region",
+              "title_my": "တနင်္သာရီတိုင်းဒေသကြီး",
+              "page": 28
+            }
+          ]
+        },
+        {
+          "lesson_id": 5,
+          "title_en": "Mountain Region",
+          "title_my": "တောင်တန်းဒေသ",
+          "about": {
+            "description_en": "This region includes the Kachin, Shan, Kayah, Kayin, and Chin States. High mountain ranges dominate the northern and eastern parts of Myanmar. Igneous and metamorphic rocks are most prevalent in the eastern highland areas. These areas feature mountain forests and a generally cooler climate. The region is well-known for tea plantations and temperate fruit farming.",
+            "description_my": "ကချင်၊ ရှမ်း၊ ကယား၊ ကရင်နှင့် ချင်းပြည်နယ်တို့ တည်ရှိသည် ။ မြန်မာနိုင်ငံ၏ မြောက်ပိုင်းနှင့် အရှေ့ဘက်တွင် အလွန်မြင့်မားသော တောင်တန်းကြီးများ ရှိသည် ။ အရှေ့ဘက်ကုန်းမြင့်ဒေသတွင် မီးသင့်ကျောက်နှင့် အသွင်ပြောင်းကျောက်များကို အများဆုံးတွေ့ရသည် ။ တောင်ပေါ်တောများနှင့် အေးမြသော ရာသီဥတုရှိသော ဒေသများဖြစ်သည် ။ လက်ဖက်နှင့် သစ်သီးဝလံ စိုက်ပျိုးရေးလုပ်ငန်းများ ထင်ရှားသည် ။"
+          },
+          "youtube_playlist_id": "PLnYHM09EZqGZncy6oCdiernmV6qKSWYGQ",
+          "url": "https://www.youtube.com/watch?v=dfpqITwNXQA&list=PLnYHM09EZqGZncy6oCdiernmV6qKSWYGQ",
+          "subsections": [
+            {
+              "title_en": "Kachin State",
+              "title_my": "ကချင်ပြည်နယ်",
+              "page": 30
+            },
+            {
+              "title_en": "Shan State",
+              "title_my": "ရှမ်းပြည်နယ်",
+              "page": 32
+            },
+            {
+              "title_en": "Kayah State",
+              "title_my": "ကယားပြည်နယ်",
+              "page": 34
+            },
+            {
+              "title_en": "Kayin State",
+              "title_my": "ကရင်ပြည်နယ်",
+              "page": 36
+            },
+            {
+              "title_en": "Chin State",
+              "title_my": "ချင်းပြည်နယ်",
+              "page": 38
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "part_id": 3,
+      "part_title_en": "Practical Geography of Myanmar",
+      "part_title_my": "မြန်မာနိုင်ငံ၏ လက်တွေ့မြေဗေဒ",
+      "sections": [
+        {
+          "lesson_id": 6,
+          "title_en": "Eight Directions",
+          "title_my": "အရပ်ရှစ်မျက်နှာ",
+          "page": 39,
+          "about": {
+            "description_en": "Students learn to identify the four main and four intermediate compass directions. Understanding directions is essential for reading and interpreting maps correctly. This chapter provides foundational exercises for practical geographical skills. It helps students describe the location of neighboring countries based on cardinal directions. The goal is to enable students to navigate and locate places in real-world settings.",
+            "description_my": "အရှေ့၊ အနောက်၊ တောင်၊ မြောက် နှင့် ထောင့်အရပ်များကို ခွဲခြားတတ်စေရန် သင်ယူရသည် ။ မြေပုံတစ်ခုကို ဖတ်ရှုရာတွင် အရပ်မျက်နှာများကို သိရှိရန် အရေးကြီးသည် ။ ဤအခန်းသည် အခြေခံ ပထဝီဝင် ကျွမ်းကျင်မှုများကို လေ့ကျင့်ပေးသည် ။ အိမ်နီးချင်းနိုင်ငံများ၏ တည်နေရာကို အရပ်မျက်နှာအလိုက် ဖော်ပြတတ်စေသည် ။ လက်တွေ့နယ်ပယ်တွင် တည်နေရာရှာဖွေတတ်ရန် ရည်ရွယ်သည် ။"
+          },
+          "youtube_playlist_id": "PLnYHM09EZqGZncy6oCdiernmV6qKSWYGQ",
+          "url": "https://www.youtube.com/watch?v=dfpqITwNXQA&list=PLnYHM09EZqGZncy6oCdiernmV6qKSWYGQ"
+        },
+        {
+          "lesson_id": 7,
+          "title_en": "Weather Conditions",
+          "title_my": "ရာသီဥတုအခြေအနေများ",
+          "page": 45,
+          "about": {
+            "description_en": "This chapter examines Myanmar’s three distinct seasons: summer, rainy, and winter. Students learn how to monitor and record changes in rainfall and temperature. It explains how climate affects agricultural cycles and daily living habits. The characteristics of a tropical monsoon (hot and humid) climate are detailed. The lesson encourages students to take an interest in environmental conservation.",
+            "description_my": "မြန်မာနိုင်ငံ၏ ရာသီဥတု သုံးမျိုးဖြစ်သော နွေ၊ မိုး၊ ဆောင်း အကြောင်းကို လေ့လာရသည် ။ မိုးရေချိန်နှင့် အပူချိန် ပြောင်းလဲမှုများကို စောင့်ကြည့်မှတ်တမ်းတင်နည်းကို သင်ယူရသည် ။ ရာသီဥတုအလိုက် စိုက်ပျိုးရေးနှင့် နေထိုင်မှုပုံစံများ ပြောင်းလဲပုံကို သိရှိစေသည် ။ ပူအိုက်စိုစွတ်သော ရာသီဥတု၏ ဝိသေသလက္ခဏာများကို ဖော်ပြထားသည် ။ သဘာဝပတ်ဝန်းကျင်ကို ထိန်းသိမ်းလိုစိတ်ရှိလာစေရန် ရည်ရွယ်သည် ။"
+          },
+          "youtube_playlist_id": "PLnYHM09EZqGZncy6oCdiernmV6qKSWYGQ",
+          "url": "https://www.youtube.com/watch?v=dfpqITwNXQA&list=PLnYHM09EZqGZncy6oCdiernmV6qKSWYGQ"
+        }
+      ]
+    },
+
+    {
+      "part_id": 4,
+      "part_title_en": "Myanmar History",
+      "part_title_my": "မြန်မာ့သမိုင်း",
+      "sections": [
+        {
+          "lesson_id": 8,
+          "title_en": "Myanmar and the British Colonial Empire",
+          "title_my": "မြန်မာနှင့် အင်္ဂလိပ်နယ်ချဲ့",
+          "page": 54,
+          "about": {
+            "description_en": "This lesson covers the period of British colonization in Myanmar and its impact on the country.",
+            "description_my": "ဤသင်ခန်းစာတွင် မြန်မာနိုင်ငံတွင် အင်္ဂလိပ်တို့၏ ကိုလိုနီအုပ်ချုပ်မှုကာလနှင့် ၎င်း၏ နိုင်ငံပေါ်သက်ရောက်မှုကို ဖော်ပြထားသည်။"
+          },
+          "youtube_playlist_id": "PLnYHM09EZqGZncy6oCdiernmV6qKSWYGQ",
+          "url": "https://www.youtube.com/watch?v=dfpqITwNXQA&list=PLnYHM09EZqGZncy6oCdiernmV6qKSWYGQ"
+        },
+        {
+          "lesson_id": 9,
+          "title_en": "Anti-colonialism in Kachin Highlands",
+          "title_my": "ကချင်ဒေသရှိ ကိုလိုနီဆန့်ကျင်ရေး",
+          "page": 56,
+          "about": {
+            "description_en": "This lesson discusses the anti-colonial movements in the Kachin highlands during British rule.",
+            "description_my": "ဤသင်ခန်းစာတွင် အင်္ဂလိပ်အုပ်ချုပ်မှုကာလအတွင်း ကချင်မြင့်ဒေသရှိ ကိုလိုနီဆန့်ကျင်ရေး လှုပ်ရှားမှုများကို ဆွေးနွေးထားသည်။"
+          },
+          "youtube_playlist_id": "PLnYHM09EZqGZncy6oCdiernmV6qKSWYGQ",
+          "url": "https://www.youtube.com/watch?v=dfpqITwNXQA&list=PLnYHM09EZqGZncy6oCdiernmV6qKSWYGQ"
+        },
+        {
+          "lesson_id": 10,
+          "title_en": "Patriotic leader Saw La Fo",
+          "title_my": "မျိုးချစ်ခေါင်းဆောင်စောလဖော်",
+          "page": 58,
+          "about": {
+            "description_en": "This lesson highlights the contributions of Saw La Fo, a prominent patriotic leader in Myanmar's history.",
+            "description_my": "ဤသင်ခန်းစာတွင် မြန်မာ့သမိုင်းတွင် ထင်ရှားသော မျိုးချစ်ခေါင်းဆောင် စောလဖော်၏ အကျိုးအမြတ်များကို ဖော်ပြထားသည်။"
+          }
+        },
+        {
+          "lesson_id": 11,
+          "title_en": "Chin revolutionary leader Kyaw Bi",
+          "title_my": "ချင်းတော်လှန်ရေးခေါင်းဆောင် ကြွမ်ဘိ",
+          "page": 60,
+          "about": {
+            "description_en": "This lesson focuses on Kyaw Bi, a key revolutionary leader from the Chin",
+            "description_my": "ဤသင်ခန်းစာတွင် ချင်းတော်လှန်ရေးမှ ထင်ရှားသည့် ခေါင်းဆောင် ကြွမ်ဘိကို အထူးပြုထားသည်။"
+          }
+        },
+        {
+          "lesson_id": 12,
+          "title_en": "U Aung Myat, the great chief of Wan Tho",
+          "title_my": "ဝန်းသိုစော်ဘွားကြီးဦးအောင်မြတ်",
+          "page": 62,
+          "about": {
+            "description_en": "This lesson discusses U Aung Myat, the influential chief of Wan Tho and his role in Myanmar's history.",
+            "description_my": "ဤသင်ခန်းစာတွင် ဝန်းသိုစော်ဘွားကြီး ဦးအောင်မြတ်နှင့် မြန်မာ့သမိုင်း၌ ၎င်း၏ အခန်းကဏ္ဍကို ဆွေးနွေးထားသည်။"
+          }
+        },
+        {
+          "lesson_id": 13,
+          "title_en": "U Chit Hlaing, leader of the Wan Thanu",
+          "title_my": "ဝံသာနုခေါင်းဆောင်ဦးချစ်လှိုင်",
+          "page": 64,
+          "about": {
+            "description_en": "This lesson highlights U Chit Hlaing, the leader of the Wan Thanu movement in Myanmar's history.",
+            "description_my": "ဤသင်ခန်းစာတွင် မြန်မာ့သမိုင်း၌ ဝံသာနုလှုပ်ရှားမှု၏ ခေါင်းဆောင် ဦးချစ်လှိုင်ကို ဖော်ပြထားသည်။"
+          }
+        },
+        {
+          "lesson_id": 14,
+          "title_en": "Peasant uprising",
+          "title_my": "တောင်သူလယ်သမားအရေးတော်ပုံ",
+          "page": 65,
+          "about": {
+            "description_en": "This lesson covers the peasant uprisings that took place in Myanmar's history.",
+            "description_my": "ဤသင်ခန်းစာတွင် မြန်မာ့သမိုင်း၌ ဖြစ်ပွားခဲ့သော တောင်သူလယ်သမားအရေးတော်ပုံများကို ဖော်ပြထားသည်။"
+          }
+        },
+        {
+          "lesson_id": 15,
+          "title_en": "U Shwe Zan Aung",
+          "title_my": "ဦးရွှေဇံအောင်",
+          "page": 67,
+          "about": {
+            "description_en": "This lesson discusses U Shwe Zan Aung and his contributions to Myanmar's history.",
+            "description_my": "ဤသင်ခန်းစာတွင် ဦးရွှေဇံအောင်နှင့် မြန်မာ့သမိုင်း၌ ၎င်း၏ အကျိုးအမြတ်များကို ဆွေးနွေးထားသည်။"
+          }
+        },
+        {
+          "lesson_id": 16,
+          "title_en": "Deedok Oo Ba Cho",
+          "title_my": "ဒီးဒုတ်ဦးဘချို",
+          "page": 68,
+          "about": {
+            "description_en": "This lesson highlights Deedok Oo Ba Cho and his role in Myanmar's history.",
+            "description_my": "ဤသင်ခန်းစာတွင် ဒီးဒုတ်ဦးဘချိုနှင့် မြန်မာ့သမိုင်း၌ ၎င်း၏ အခန်းကဏ္ဍကို ဖော်ပြထားသည်။"
+          }
+        },
+        {
+          "lesson_id": 17,
+          "title_en": "Kahin national leader Mann Ba Khaing",
+          "title_my": "ကရင်အမျိုးသားခေါင်းဆောင်မန်းဘခိုင်",
+          "page": 69,
+          "about": {
+            "description_en": "This lesson focuses on Mann Ba Khaing, a prominent Karen national leader in Myanmar's history.",
+            "description_my": "ဤသင်ခန်းစာတွင် မြန်မာ့သမိုင်း၌ ထင်ရှားသော ကရင်အမျိုးသားခေါင်းဆောင် မန်းဘခိုင်ကို အထူးပြုထားသည်။"
+          }
+        },
+        {
+          "lesson_id": 18,
+          "title_en": "General Aung San",
+          "title_my": "ဗိုလ်ချုပ်အောင်ဆန်း",
+          "page": 71,
+          "about": {
+            "description_en": "This lesson discusses General Aung San and his significant contributions to Myanmar's independence movement.",
+            "description_my": "ဤသင်ခန်းစာတွင် ဗိုလ်ချုပ်အောင်ဆန်းနှင့် မြန်မာ့လွတ်လပ်ရေး လှုပ်ရှားမှု၌ ၎င်း၏ အရေးပါသော အကျိုးအမြတ်များကို ဆွေးနွေးထားသည်။"
+          }
+        },
+        {
+          "lesson_id": 19,
+          "title_en": "Colonel Bahuto",
+          "title_my": "ဗိုလ်မှူးကြီးဗထူး",
+          "page": 73,
+          "about": {
+            "description_en": "This lesson highlights Colonel Bahuto and his role in Myanmar's history.",
+            "description_my": "ဤသင်ခန်းစာတွင် မြန်မာ့သမိုင်း၌ ဗိုလ်မှူးကြီးဗထူး၏ အခန်းကဏ္ဍကို ဖော်ပြထားသည်။"
+          }
+        },
+        {
+          "lesson_id": 20,
+          "title_en": "Union Day",
+          "title_my": "ပြည်ထောင်စုနေ့",
+          "page": 75,
+          "about": {
+            "description_en": "This lesson covers Union Day, a significant national holiday in Myanmar commemorating the country's unity.",
+            "description_my": "ဤသင်ခန်းစာတွင် မြန်မာနိုင်ငံ၏ ညီညွတ်မှုကို မှတ်တမ်းတင်သော အရေးပါသော အမျိုးသားပွဲတော်ဖြစ်သော ပြည်ထောင်စုနေ့ကို ဖော်ပြထားသည်။"
+          }
+        },
+        {
+          "lesson_id": 21,
+          "title_en": "Independence Day Celebration",
+          "title_my": "လွတ်လပ်ရေးနေ့အခမ်းအနား",
+          "page": 77,
+          "about": {
+            "description_en": "This lesson discusses the celebration of Independence Day in Myanmar, marking the country's freedom from colonial rule.",
+            "description_my": "ဤသင်ခန်းစာတွင် ကိုလိုနီအုပ်ချုပ်မှုမှ လွတ်မြောက်ခြင်းကို မှတ်တမ်းတင်သော မြန်မာနိုင်ငံ၏ လွတ်လပ်ရေးနေ့အခမ်းအနားကို ဆွေးနွေးထားသည်။"
+          }
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "1.1",
+    "lastUpdated": "2024-01-30",
+    "author": "Support Team"
+  }
+}
