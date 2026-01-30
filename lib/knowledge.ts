@@ -124,8 +124,14 @@ export async function loadMultipleKnowledgeFiles(filenames: string[]): Promise<K
 export async function loadAllKnowledgeFiles(): Promise<KnowledgeData | null> {
   // Update this list with your actual knowledge file names
   const filenames = [
-    'g05_history.json',
-    
+    'help.json',
+    'faq.json',
+    'guides.json',
+    'features.json',
+    'tutorials.json',
+    'troubleshooting.json',
+    'advanced-features.json',
+    'g05_history.json'
     // Add your new file names here
   ];
 
@@ -192,4 +198,45 @@ export function getTopicsByCategory(
     cat.name.toLowerCase() === categoryName.toLowerCase()
   );
   return category ? category.topics : [];
+}
+
+/**
+ * AI Tool: Search knowledge base for a query
+ * This function can be called by the AI to search the knowledge base
+ */
+export async function searchKnowledgeBase(query: string, maxResults: number = 3): Promise<string> {
+  try {
+    // Load all knowledge files
+    const knowledge = await loadAllKnowledgeFiles();
+
+    if (!knowledge) {
+      return "I don't have access to knowledge base information at the moment.";
+    }
+
+    // Search for relevant topics
+    const results = searchKnowledge(knowledge, query, maxResults);
+
+    if (results.length === 0) {
+      return `I searched the knowledge base for "${query}" but couldn't find relevant information.`;
+    }
+
+    // Format results for AI consumption
+    let response = `Based on the knowledge base, here are ${results.length} relevant topics for "${query}":\n\n`;
+
+    results.forEach((topic, index) => {
+      response += `${index + 1}. **${topic.title}**\n`;
+      response += `${topic.content}\n`;
+
+      if (topic.tags.length > 0) {
+        response += `Tags: ${topic.tags.join(', ')}\n`;
+      }
+
+      response += '\n';
+    });
+
+    return response;
+  } catch (error) {
+    console.error('Error searching knowledge base:', error);
+    return "I encountered an error while searching the knowledge base.";
+  }
 }

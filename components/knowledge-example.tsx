@@ -6,6 +6,7 @@ import {
   loadMultipleKnowledgeFiles,
   loadAllKnowledgeFiles,
   searchKnowledge,
+  searchKnowledgeBase,
   type KnowledgeData,
   type KnowledgeTopic
 } from '@/lib/knowledge';
@@ -16,6 +17,10 @@ export function KnowledgeExample() {
   const [searchResults, setSearchResults] = useState<KnowledgeTopic[]>([]);
   const [loading, setLoading] = useState(true);
   const [loadMethod, setLoadMethod] = useState<'single' | 'multiple' | 'all'>('single');
+
+  // Test AI tool functionality
+  const [testQuery, setTestQuery] = useState('Tell me about Myanmar ethnic groups');
+  const [testResult, setTestResult] = useState<string>('');
 
   useEffect(() => {
     loadKnowledge();
@@ -62,9 +67,49 @@ export function KnowledgeExample() {
     return <div>Failed to load knowledge base</div>;
   }
 
+  const runTestQuery = async () => {
+    if (!testQuery.trim()) return;
+
+    setTestResult('Searching knowledge base...');
+    try {
+      const result = await searchKnowledgeBase(testQuery);
+      setTestResult(result);
+    } catch (error) {
+      setTestResult(`Error: ${error}`);
+    }
+  };
+
   return (
     <div className="p-4">
       <h2 className="text-xl font-bold mb-4">Knowledge Base Example</h2>
+
+      {/* AI Tool Test */}
+      <div className="mb-6 p-4 border rounded-lg bg-blue-50">
+        <h3 className="text-lg font-semibold mb-2">🧠 Test AI Knowledge Search</h3>
+        <p className="text-sm text-gray-600 mb-3">
+          This simulates how the AI will search your knowledge base. Try asking about Myanmar geography or history!
+        </p>
+        <div className="flex gap-2 mb-3">
+          <input
+            type="text"
+            value={testQuery}
+            onChange={(e) => setTestQuery(e.target.value)}
+            placeholder="Ask a question..."
+            className="flex-1 border p-2 rounded"
+          />
+          <button
+            onClick={runTestQuery}
+            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+          >
+            Search
+          </button>
+        </div>
+        {testResult && (
+          <div className="bg-white p-3 rounded border text-sm">
+            <pre className="whitespace-pre-wrap">{testResult}</pre>
+          </div>
+        )}
+      </div>
 
       {/* Load Method Selector */}
       <div className="mb-4">
