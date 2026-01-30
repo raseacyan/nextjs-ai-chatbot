@@ -122,9 +122,12 @@ export async function loadMultipleKnowledgeFiles(filenames: string[]): Promise<K
  * Note: This requires an API endpoint to list files, or you can hardcode the filenames
  */
 export async function loadAllKnowledgeFiles(): Promise<KnowledgeData | null> {
-  // For now, specify the files you want to load
-  // In a real implementation, you might want to create an API endpoint that lists all files
-  const filenames = ['help.json', 'faq.json', 'guides.json', 'features.json'];
+  // Update this list with your actual knowledge file names
+  const filenames = [
+    'g05_history.json',
+    
+    // Add your new file names here
+  ];
 
   return loadMultipleKnowledgeFiles(filenames);
 }

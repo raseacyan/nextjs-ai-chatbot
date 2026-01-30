@@ -1,0 +1,35 @@
+{
+  "categories": [
+    {
+      "name": "Advanced Features",
+      "description": "Advanced features and capabilities of the chat system",
+      "topics": [
+        {
+          "title": "Custom AI Models",
+          "content": "You can switch between different AI models including GPT-4, Claude, and specialized coding models. Each model has different strengths for various tasks.",
+          "tags": ["models", "AI", "advanced"]
+        },
+        {
+          "title": "Document Collaboration",
+          "content": "The AI can create and edit documents in real-time. You can request changes, additions, or modifications to any document.",
+          "tags": ["documents", "collaboration", "editing"]
+        },
+        {
+          "title": "Code Generation",
+          "content": "Generate complete, runnable code snippets in multiple programming languages. The AI understands context and can create functions, classes, and full applications.",
+          "tags": ["coding", "development", "snippets"]
+        },
+        {
+          "title": "Multi-modal Input",
+          "content": "Upload images, documents, and other files to discuss their content with the AI. The system can analyze and provide insights about uploaded materials.",
+          "tags": ["upload", "images", "analysis"]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2024-01-30",
+    "author": "Advanced Features Team"
+  }
+}
