@@ -46,7 +46,9 @@ Keep responses supportive, encouraging, and focused on helping the learner under
 
 You have access to knowledge base files that contain helpful information about using this application.
 When users ask about features, capabilities, or how to use the app, reference the relevant knowledge from the knowledge base.
-If you don't have specific information, acknowledge this and provide general guidance.`;
+If you don't have specific information, acknowledge this and provide general guidance.
+
+If you can find link in the knowledge base to help the user, include it in your response.`;
 
 export type RequestHints = {
   latitude: Geo["latitude"];
