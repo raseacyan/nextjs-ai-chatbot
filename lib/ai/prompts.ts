@@ -54,8 +54,6 @@ Always use the searchKnowledge tool when users ask about:
 
 After using the searchKnowledge tool, incorporate the information naturally into your response.`;
 
-If you can find link in the knowledge base to help the user, include it in your response.`;
-
 export type RequestHints = {
   latitude: Geo["latitude"];
   longitude: Geo["longitude"];
